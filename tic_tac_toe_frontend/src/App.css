@@ -1,13 +1,18 @@
 /* CSS Variables for Theme Management */
 :root {
-  /* Light theme colors */
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8f9fa;
-  --text-primary: #282c34;
-  --text-secondary: #61dafb;
-  --border-color: #e9ecef;
-  --button-bg: #007bff;
-  --button-text: #ffffff;
+  /* Brand theme colors for Tic Tac Toe */
+  --primary: #1976d2;
+  --accent: #e91e63;
+  --secondary: #ffffff;
+  --ttt-board-bg: #fff;
+  --ttt-win: #e91e63;
+  --ttt-x: #1976d2;
+  --ttt-o: #e91e63;
+  --ttt-border: #e0e0e0;
+  --ttt-shadow: 0 0 18px 0 rgba(25,118,210,0.07);
+  --ttt-btn-bg: #1976d2;
+  --ttt-btn-fg: #fff;
+  --ttt-btn-hover: #1562ac;
 }
 
 [data-theme="dark"] {
